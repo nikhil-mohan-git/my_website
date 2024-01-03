@@ -12,6 +12,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  /* background-color: #040404; */
+  /* color: #fff; */
+  /* position: relative; */
+  /* background: transparent */
 }
 
 a {
@@ -500,9 +504,9 @@ section {
   font-style: normal;
 }
 
-.skills .progress-bar-wrap {
+/* .skills .progress-bar-wrap {
   background: #f2f3f5;
-}
+} */
 
 .skills .progress-bar {
   width: 1px;
@@ -510,6 +514,51 @@ section {
   transition: 0.9s;
   background-color: #0563bb;
 }
+
+
+
+
+.skills .progress-bar-wrap {
+  background: #f2f3f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.skill-section {
+  margin-bottom: 20px;
+}
+
+.skill-detail-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-detail {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.skill-level {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.progress-bar-wrap {
+  width: 100%;
+}
+
+.progress-bar {
+  background-color: #4CAF50; /* Green */
+  height: 20px;
+  width: 0%;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Resume
